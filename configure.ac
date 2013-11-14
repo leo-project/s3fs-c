@@ -11,7 +11,7 @@ AC_PROG_CXX
 
 CXXFLAGS="$CXXFLAGS -Wall -D_FILE_OFFSET_BITS=64"
 
-PKG_CHECK_MODULES([DEPS], [fuse >= 2.8.4 libcurl >= 7.0 libxml-2.0 >= 2.6 libcrypto >= 0.9])
+PKG_CHECK_MODULES([DEPS], [fuse >= 2.8.3 libcurl >= 7.0 libxml-2.0 >= 2.6 libcrypto >= 0.9])
 
 AC_CONFIG_FILES(Makefile src/Makefile test/Makefile doc/Makefile)
 AC_OUTPUT

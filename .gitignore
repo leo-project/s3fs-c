@@ -1,0 +1,7 @@
+*.o
+*.log
+Makefile
+autom4te.cache
+config.status
+src/.deps/
+src/s3fs
